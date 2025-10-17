@@ -26,7 +26,7 @@ p{
   margin: 10px 0;
  
 }
-#start-btn{
+button{
   color: #016f32;
   width: 150px;
   background: goldenrod;
@@ -34,4 +34,5 @@ p{
   padding: 5px 0;
   font-weight: bold;
   cursor: pointer;
+  margin: 5px 0;
 }
