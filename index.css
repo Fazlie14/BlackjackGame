@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  pad: 0;
+  box-sizing: border-box;
+}
+body{
+  background:url(img/greenbackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  font-family: 'Trebuchet Ms',sans-serif;
+}
+h1{
+  color: goldenrod;
+  font-size: 50px;
+}
+#messg-El{
+  font-size: 30px;
+  font-style: italic;
+
+}
+p{
+  font-size:25px ;
+  margin: 10px 0;
+  font-style: italic;
+}
