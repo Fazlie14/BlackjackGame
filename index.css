@@ -9,7 +9,7 @@ body{
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  margin-top: 150px;
+  
   font-family: 'Trebuchet Ms',sans-serif;
 }
 h1{
@@ -30,4 +30,8 @@ p{
   color: #016f32;
   width: 150px;
   background: goldenrod;
+  border: none;
+  padding: 5px 0;
+  font-weight: bold;
+  cursor: pointer;
 }
