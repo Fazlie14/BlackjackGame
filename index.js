@@ -1,5 +1,5 @@
-let firstCard = 10;
-let secondCard = 11;
+let firstCard = 5;
+let secondCard = 6;
 
 let sum = firstCard + secondCard;
 let hasBlackJack = false;
@@ -9,8 +9,11 @@ let messageEl = document.getElementById("messg-El");
 let sumEl = document.querySelector("#sumEl");
 let cardsEl = document.querySelector("#card-El");
 
-
 function startGame(){
+  renderGame();
+}
+
+function renderGame(){
   cardsEl.textContent = `Cards: ${firstCard} ${secondCard}`;
   sumEl.textContent = `Sum: ${sum}`;
   if(sum <= 20){
@@ -26,4 +29,15 @@ function startGame(){
   messageEl.textContent = message;
   
 }
+
+function newCard(){
+  let card = 8;
+  sum += card;
+  
+
+  renderGame();
+  
+}
+
+
 
