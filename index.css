@@ -26,3 +26,8 @@ p{
   margin: 10px 0;
  
 }
+#start-btn{
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+}
