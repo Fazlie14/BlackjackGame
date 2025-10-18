@@ -9,7 +9,7 @@ body{
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  
+  height: 100vh;
   font-family: 'Trebuchet Ms',sans-serif;
 }
 h1{
