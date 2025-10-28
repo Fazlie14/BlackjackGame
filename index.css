@@ -36,3 +36,6 @@ button{
   cursor: pointer;
   margin: 5px 0;
 }
+button:active{
+  transform: scale(0.98);
+} 
